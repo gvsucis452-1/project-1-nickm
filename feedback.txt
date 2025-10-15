@@ -1,0 +1,6 @@
+Be sure to include your name in electronic documents. 
+
+Your code is well-structured and very easy to follow.
+
+Your C coding style is very different from your classmates'.
+Have you had a job where you wrote a lot of C? 

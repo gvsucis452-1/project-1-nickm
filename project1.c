@@ -1,3 +1,7 @@
+// 
+// zk Need a file header with description and author name.
+//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -248,6 +252,7 @@ int main(void) {
     is_parent = 1;
 
     //allocate pipes for k nodes
+    // zk Newer C compiler will allow you to statically define int pipe_fds[k][2]
     int (*pipe_fds)[2] = malloc(sizeof(int[2]) * k);
     if (!pipe_fds) { perror("malloc pipes"); return 1; }
 
